@@ -1,0 +1,45 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>de.kaufhof.ets</groupId>
+        <artifactId>ets-poms-aggregator-parent</artifactId>
+        <version>[0.3.0,1)</version>
+    </parent>
+
+    <groupId>net.kiessling.manuel</groupId>
+    <artifactId>ets-test-aggregator</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <url>https://github.com/Galeria-Kaufhof/ets-test</url>
+
+    <modules>
+        <module>ets-test-core</module>
+    </modules>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://opensource.org/licenses/MIT</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>galeria-kaufhof</id>
+            <name>Galeria Kaufhof</name>
+            <url>https://github.com/Galeria-Kaufhof</url>
+        </developer>
+    </developers>
+
+    <scm>
+        <url>https://github.com/Galeria-Kaufhof/ets-test</url>
+        <connection>scm:git:git@github.com:Galeria-Kaufhof/ets-test.git</connection>
+        <developerConnection>scm:git:git@github.com:Galeria-Kaufhof/ets-test.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
+</project>
